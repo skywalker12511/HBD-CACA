@@ -275,14 +275,14 @@ const _slideEnam = function () {
 
 
 new TypeIt("#teks1", {
-  strings: ["Hbd Ca Semoga selalu sehat, bahagia, dan sukses keterima kerjaan dimana ae kamu ngelamar terus semoga kamu makin pinter, baik, kaya raya dan makin makin yang bagus bagus pokok"],
+  strings: ["Hbd Ca Semoga selalu sehat, bahagia, dan sukses keterima kerjaan dimana ae kamu ngelamar terus semoga kamu makin pinter, baik, kaya raya, cantik, gak jahat, gak mangkelno dan makin makin yang bagus bagus pokok"],
   startDelay: 4000,
   speed: 30,
   waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Wish you all the best lah ca pokok e slide ini ada soale aku gabisa ngilangin e wes panas mataku ca hehe"],
+  strings: ["Wish you all the best lah ca pokok e dan juga semoga kamu cepet bertemu sama jodohmu yang kaya raya dan mirip angga yunanda btw slide ini ada soale aku gabisa ngilangin atau ngehapus e bjirrr wes panas mataku mager nyari tutorial ca hehe"],
   startDelay: 2000,
   speed: 30,
   waitUntilVisible: true
@@ -623,3 +623,4 @@ if (btnGak) {
     moveButton();
   });
 }
+
