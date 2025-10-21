@@ -20,9 +20,12 @@
   <audio id="waveform" src="./img/Monokrom.mp3" preload="auto"></audio>
 
   <!-- play overlay: ditampilkan jika autoplay diblokir -->
-  <button id="btnPlay" class="btn btn-primary" style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:9999;">
-    Tap to play
-  </button>
+<button id="btnPlay" class="btn btn-primary" 
+  style="position:fixed;left:50%;bottom:40px;transform:translateX(-50%);
+  z-index:9999;">
+  Tap to play
+</button>
+
 
   <div class="bg" id="content">
 
@@ -59,7 +62,7 @@
     <div class="kotak d-none slides animate__animated animate__fadeInDown animate__delay-2s" id="slideEmpat">
       <div class="row">
         <div class="col-sm mt-1">
-          <h5>Kamu suka nggak?</h5>
+          <h5>Apikkk nggak?</h5>
         </div>
       </div>
       <div class="row mt-2">
@@ -77,8 +80,11 @@
     </div>
     <p id="trims" class="text-muted d-none mt-2"></p>
 
-    <p id="tap" class="d-none animate__animated animate__pulse text-muted animate__slow animate__repeat-3">Ketuk untuk
-      melanjutkan</p>
+    <!-- pindah ketuk ke bawah layar agar tidak mengganggu (sedikit lebih naik ke tengah bawah) -->
+    <p id="tap" class="d-none animate__animated animate__pulse text-muted animate__slow animate__repeat-3"
+       style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:9998;font-size:0.95rem;">
+      Ketuk untuk melanjutkan
+    </p>
     <!-- Footer -->
     <footer class="page-footer font-small blue fixed-bottom">
   <!-- Optional JavaScript -->
