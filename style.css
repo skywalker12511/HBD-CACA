@@ -179,3 +179,22 @@ body {
   padding: 0;
   text-align: center;
 }
+
+/* === Foto bawah agar proporsional di semua layar === */
+#fotoHbd1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;   /* menjaga rasio proporsional */
+  object-position: center;
+  margin: 0 auto;
+}
+
+/* Responsif di layar HP */
+@media (max-width: 768px) {
+  #fotoHbd1 {
+    max-height: 55vh;  /* batasi tinggi di layar sempit */
+    width: auto;
+  }
+}
