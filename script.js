@@ -82,7 +82,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Oct 22, 2025 12:40:00').getTime(),
+let countDown = new Date('Oct 22, 2025 12:55:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -623,5 +623,6 @@ if (btnGak) {
     moveButton();
   });
 }
+
 
 
