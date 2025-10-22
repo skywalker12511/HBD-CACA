@@ -194,7 +194,8 @@ body {
 /* Responsif di layar HP */
 @media (max-width: 768px) {
   #fotoHbd1 {
-    max-height: 55vh;  /* batasi tinggi di layar sempit */
+    max-height: 100vh;  /* batasi tinggi di layar sempit */
     width: auto;
   }
 }
+
