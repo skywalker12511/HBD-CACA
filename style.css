@@ -213,3 +213,10 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+    top: 100px;  /* naikkan countdown agar terlihat */
+  }
+}
+
+
