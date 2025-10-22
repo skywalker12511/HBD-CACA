@@ -199,3 +199,9 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .container {
+    top: 100px; /* biar lebih ke atas di HP */
+  }
+}
+
