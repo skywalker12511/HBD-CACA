@@ -205,3 +205,11 @@ body {
   }
 }
 
+/* Posisi foto bawah agar pas di HP */
+@media (max-width: 768px) {
+  #fotoHbd1 {
+    margin-top: 30px;   /* turunkan dari 100px ke 30px */
+    max-height: 50vh;   /* batasi tinggi biar tidak terlalu panjang */
+  }
+}
+
